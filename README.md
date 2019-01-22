@@ -1,4 +1,4 @@
-# 64bit PC Gadget Snap
+# 64bit PC Gadget Snap (tailored for FWTS live)
 
 This repository contains the official Ubuntu Core gadget snap for 64bit
 Personal Computers using Intel or AMD processors. 
