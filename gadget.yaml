@@ -26,3 +26,8 @@ volumes:
             target: EFI/boot/bootx64.efi
           - source: grub-cpc.cfg
             target: EFI/ubuntu/grub.cfg
+      - name: FWTS Results
+        type: 0C,EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+        filesystem: vfat
+        filesystem-label: fwts-result
+        size: 20M

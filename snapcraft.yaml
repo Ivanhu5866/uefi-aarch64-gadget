@@ -22,4 +22,6 @@ parts:
       - grub-common
     plugin: make
     after: [grub-prepare]
-
+  fwts:
+    plugin: nil
+    override-prime: mkdir fwts
