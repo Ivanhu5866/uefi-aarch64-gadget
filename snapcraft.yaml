@@ -1,4 +1,5 @@
 name: pc
+base: core20
 version: '16.04-0.9'
 type: gadget
 summary: PC gadget for generic devices
