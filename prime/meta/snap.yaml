@@ -1,0 +1,12 @@
+name: pc
+version: 20-0.4
+summary: PC gadget for generic devices
+description: 'This gadget enables generic aarch64 devices to work with Ubuntu Core
+
+  '
+architectures:
+- arm64
+base: core20
+confinement: strict
+grade: stable
+type: gadget
